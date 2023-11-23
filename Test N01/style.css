@@ -1,0 +1,333 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-bottom: 10%;
+
+}
+
+.main-header {
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    font-family: sans-serif;
+    line-height: 1.45;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+.main-table{
+    position: relative;
+      height: auto;
+}
+.main-table::before {
+    content: '';
+    position: absolute;
+    top: 330px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('images/sic-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.04;
+    z-index: -1;
+  }
+
+.hadronlogo img {
+    width: 141px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.sic-form {
+    padding: 2%;
+    width: 771px;
+    height: auto;
+
+}
+
+.header-section {
+    width: 1030px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section .headings {
+    text-align: right;
+}
+
+.headings .top-right-headers {
+    color: rgb(12, 140, 165);
+
+}
+
+.header-part {
+    width: 630px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 151px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 151px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.heading {
+    width: 427px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.heading .heading1 {
+    color: #344785;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.25px;
+
+}
+
+.heading .heading2 {
+    color: #0A832C;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* body-part section */
+
+.body-part {
+    padding: 3%;
+}
+
+.body-part .jrm {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+.body-part .programme {
+    font-family: sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    font-family: sans-serif;
+ 
+}
+
+.family-reward{
+    height: 50px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+.family-reward-signature{
+    margin-top: -35px;
+    font-size: 12px;
+}
+.family-reward:last-child{
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+#child-header-title{
+   width: 120px;
+}
+.child-status td {
+    font-size: 14px;
+}
+
+.child-header{
+    text-align: center;
+    padding: 2%;
+}
+.demandeur-conjoint {
+    background: #DADDEE;
+    line-height: 3;
+    padding: 3%;
+}
+.demandeur-conjoint-content{
+    padding: 3%;
+    line-height: 1.5;
+    width: 500px;
+    height: auto;
+}
+.demandeur-conjoint-content span{
+    font-size: 12px;
+}
+
+.demandeur-conjoint .demandeur-conjoint-02 {
+    line-height: 16;
+}
+
+
+.matrimonial-status {
+    display: flex;
+}
+
+.matrimonial-status label {
+    margin-left: 1%;
+
+}
+
+.matrimonial-status .status-1 {
+    margin-left: 2%;
+}
+
+.child-status,
+.salary-status {
+    border-collapse: collapse;
+    text-align: center;
+    border: none;
+    margin: 0;
+
+}
+
+.salary-status-content td,
+.child-status .child-status-content td {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.salary-status .person-salary-cell1 {
+    width: 20%;
+}
+
+.salary-status .person-salary-cell2 {
+    width: 30%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0.5%;
+}
+.engagement span,.decision span{
+ padding: 4%;
+}
+.engagement{
+    width: 50%;
+    line-height: 1;
+    padding:1.5%;
+    text-align: center;
+
+}
+.decision{
+    line-height: 1.4;
+    padding:1.5%;
+    text-align: center; 
+    border:none;
+}
+.engagement-decision{
+    position:relative;
+}
+
+ .decision {
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+}
+.engagement span, .decision span{
+    font-size: 12px;
+    padding: 3%;
+    text-wrap: nowrap;
+}
+.line {
+    width: 1100px;
+    height: 5px;
+    font-weight: bold;
+    background: #344785;
+    position: relative;
+}
+.attachments .title{
+    font-size: 14px;
+    margin-left: 18px;
+    line-height: 2;
+}
+.attachments,.other-attachments{
+    padding: 1%;
+    line-height: 1.24;
+
+}
+.attachments li, .other-attachments li{
+    font-size: 12px;
+    font-family: sans-serif;
+    list-style: inside;
+}
+.signature-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.signature-part:last-child{
+    margin-top: -15px;
+}
+.normal-signature-reward{
+    font-size: 13px;
+    text-align: center;
+    margin-top: -35px;
+
+}
+.account{
+    display: flex;
+    justify-content: center;
+}
+.last-part .line-modifier{
+    width: 800px;
+    background-color: #830a0e;
+    height: 10px;
+    position: absolute;
+    top:-150px;
+}
+.last-part{
+    margin-top: -50px;
+}
+.purple-td {
+    background: rgba(218, 221, 238, 0.5); /* Equivalent to #DADDEE */
+  }
+  
+  .skyblue-td {
+    background: rgba(207, 238, 255, 0.5); /* Equivalent to #cfeeff */
+  }
